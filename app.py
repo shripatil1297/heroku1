@@ -5,11 +5,6 @@ import dash_html_components as html
 import plotly.express as px
 import pandas as pd
 
-USERNAME_PASSWORD_PAIRS=[
-  ['guvi','guvi'],['shree','shree]
-  ]
-  app=dash.Dash()
-  auth=dash_auth.BasicAuth(app,USERNAME_PASSWORD_PAIRS)
   server = app.server
 
 app = dash.Dash(__name__)
